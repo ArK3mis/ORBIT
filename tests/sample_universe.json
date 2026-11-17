@@ -1,0 +1,393 @@
+{
+ "sample": true,
+ "me": "me",
+ "cons": [
+  {
+   "id": "family",
+   "name": "Family",
+   "hue": 268
+  },
+  {
+   "id": "college",
+   "name": "College Circle",
+   "hue": 205
+  },
+  {
+   "id": "child",
+   "name": "Childhood",
+   "hue": 330
+  },
+  {
+   "id": "mom",
+   "name": "Mara's Circle",
+   "hue": 30
+  }
+ ],
+ "people": [
+  {
+   "id": "me",
+   "name": "You",
+   "rel": "The main star",
+   "bday": "",
+   "since": 2000,
+   "con": "family",
+   "hue": 48,
+   "ring": 1,
+   "note": ""
+  },
+  {
+   "id": "mara",
+   "name": "Mara",
+   "rel": "Mother",
+   "bday": "12-12",
+   "since": 2000,
+   "con": "family",
+   "hue": 290,
+   "ring": 1,
+   "note": "The one who always knows what to cook when it rains."
+  },
+  {
+   "id": "dante",
+   "name": "Dante",
+   "rel": "Father",
+   "bday": "03-04",
+   "since": 2000,
+   "con": "family",
+   "hue": 220,
+   "ring": 1,
+   "note": ""
+  },
+  {
+   "id": "ilya",
+   "name": "Ilya",
+   "rel": "Brother",
+   "bday": "08-19",
+   "since": 2003,
+   "con": "family",
+   "hue": 190,
+   "ring": 1,
+   "note": ""
+  },
+  {
+   "id": "noa",
+   "name": "Noa",
+   "rel": "Sister",
+   "bday": "05-30",
+   "since": 2006,
+   "con": "family",
+   "hue": 330,
+   "ring": 2,
+   "note": ""
+  },
+  {
+   "id": "lola",
+   "name": "Lola Ines",
+   "rel": "Grandmother",
+   "bday": "11-24",
+   "since": 2000,
+   "con": "family",
+   "hue": 20,
+   "ring": 2,
+   "note": "Hosts every Sunday lunch."
+  },
+  {
+   "id": "benito",
+   "name": "Tito Ben",
+   "rel": "Uncle",
+   "bday": "09-02",
+   "since": 2000,
+   "con": "family",
+   "hue": 150,
+   "ring": 3,
+   "note": ""
+  },
+  {
+   "id": "pia",
+   "name": "Pia",
+   "rel": "Cousin",
+   "bday": "01-15",
+   "since": 2004,
+   "con": "family",
+   "hue": 310,
+   "ring": 3,
+   "note": ""
+  },
+  {
+   "id": "jules",
+   "name": "Jules",
+   "rel": "Best friend",
+   "bday": "11-30",
+   "since": 2012,
+   "con": "child",
+   "hue": 170,
+   "ring": 1,
+   "note": "Met in grade school. Still shares fries."
+  },
+  {
+   "id": "odette",
+   "name": "Odette",
+   "rel": "Jules's mother",
+   "bday": "",
+   "since": 2012,
+   "con": "child",
+   "hue": 100,
+   "ring": 3,
+   "note": ""
+  },
+  {
+   "id": "beck",
+   "name": "Beck",
+   "rel": "Childhood friend",
+   "bday": "06-11",
+   "since": 2008,
+   "con": "child",
+   "hue": 60,
+   "ring": 2,
+   "note": ""
+  },
+  {
+   "id": "sam",
+   "name": "Sam",
+   "rel": "Classmate",
+   "bday": "02-08",
+   "since": 2023,
+   "con": "college",
+   "hue": 200,
+   "ring": 2,
+   "note": ""
+  },
+  {
+   "id": "ari",
+   "name": "Ari",
+   "rel": "Groupmate",
+   "bday": "",
+   "since": 2024,
+   "con": "college",
+   "hue": 250,
+   "ring": 3,
+   "note": ""
+  },
+  {
+   "id": "coraz",
+   "name": "Corazon",
+   "rel": "Mara's friend",
+   "bday": "",
+   "since": 2000,
+   "con": "mom",
+   "hue": 10,
+   "ring": 3,
+   "note": ""
+  },
+  {
+   "id": "ines2",
+   "name": "Lola Pilar",
+   "rel": "Great-grandmother",
+   "bday": "",
+   "since": 2000,
+   "con": "family",
+   "hue": 35,
+   "ring": 3,
+   "note": ""
+  }
+ ],
+ "links": [
+  {
+   "a": "me",
+   "b": "mara",
+   "label": "Parent and child"
+  },
+  {
+   "a": "me",
+   "b": "dante",
+   "label": "Parent and child"
+  },
+  {
+   "a": "me",
+   "b": "ilya",
+   "label": "Siblings"
+  },
+  {
+   "a": "me",
+   "b": "noa",
+   "label": "Siblings"
+  },
+  {
+   "a": "me",
+   "b": "lola",
+   "label": "Grandparent"
+  },
+  {
+   "a": "me",
+   "b": "benito",
+   "label": "Uncle"
+  },
+  {
+   "a": "me",
+   "b": "pia",
+   "label": "Cousins"
+  },
+  {
+   "a": "me",
+   "b": "jules",
+   "label": "Best friends"
+  },
+  {
+   "a": "me",
+   "b": "beck",
+   "label": "Friends"
+  },
+  {
+   "a": "me",
+   "b": "sam",
+   "label": "Classmates"
+  },
+  {
+   "a": "me",
+   "b": "ari",
+   "label": "Groupmates"
+  },
+  {
+   "a": "mara",
+   "b": "dante",
+   "label": "Partners"
+  },
+  {
+   "a": "mara",
+   "b": "ilya",
+   "label": "Parent and child"
+  },
+  {
+   "a": "mara",
+   "b": "noa",
+   "label": "Parent and child"
+  },
+  {
+   "a": "mara",
+   "b": "lola",
+   "label": "Parent and child"
+  },
+  {
+   "a": "mara",
+   "b": "benito",
+   "label": "Siblings"
+  },
+  {
+   "a": "mara",
+   "b": "coraz",
+   "label": "Friends"
+  },
+  {
+   "a": "mara",
+   "b": "odette",
+   "label": "Friends"
+  },
+  {
+   "a": "lola",
+   "b": "ines2",
+   "label": "Parent and child"
+  },
+  {
+   "a": "benito",
+   "b": "pia",
+   "label": "Parent and child"
+  },
+  {
+   "a": "jules",
+   "b": "odette",
+   "label": "Parent and child"
+  },
+  {
+   "a": "jules",
+   "b": "ilya",
+   "label": "Friends"
+  },
+  {
+   "a": "sam",
+   "b": "ari",
+   "label": "Friends"
+  },
+  {
+   "a": "lola",
+   "b": "benito",
+   "label": "Parent and child"
+  }
+ ],
+ "mems": [
+  {
+   "id": "m1",
+   "title": "Sunday lunch at Lola's",
+   "date": "2022-11-12",
+   "loc": "Lola's house",
+   "text": "That afternoon when everyone gathered at Grandma's house and the table ran out of room.",
+   "people": [
+    "me",
+    "mara",
+    "dante",
+    "lola",
+    "benito",
+    "pia"
+   ]
+  },
+  {
+   "id": "m2",
+   "title": "First day of college",
+   "date": "2023-08-14",
+   "loc": "Campus gate",
+   "text": "Sam saved me a seat. We have sat together ever since.",
+   "people": [
+    "me",
+    "sam"
+   ]
+  },
+  {
+   "id": "m3",
+   "title": "Beach trip with Jules",
+   "date": "2019-04-20",
+   "loc": "Batangas",
+   "text": "Missed the last bus, walked the shore until sunrise.",
+   "people": [
+    "me",
+    "jules",
+    "odette"
+   ]
+  },
+  {
+   "id": "m4",
+   "title": "Mara's birthday surprise",
+   "date": "2024-12-12",
+   "loc": "Home",
+   "text": "Everyone hid in the kitchen. She pretended not to notice for ten full minutes.",
+   "people": [
+    "me",
+    "mara",
+    "dante",
+    "ilya",
+    "noa",
+    "coraz"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "e1",
+   "year": 2000,
+   "text": "Born"
+  },
+  {
+   "id": "e2",
+   "year": 2006,
+   "text": "First school"
+  },
+  {
+   "id": "e3",
+   "year": 2012,
+   "text": "Met Jules",
+   "pid": "jules"
+  },
+  {
+   "id": "e4",
+   "year": 2023,
+   "text": "Started college"
+  }
+ ]
+}
